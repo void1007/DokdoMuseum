@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 250px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.logo{
+    width: 300px;
+    height: 40px;
+}
+
+.logo img{
+    margin-left: 10px;     
+    width: 200px;
+    height: 40px;
+}
+
+.menu{
+    float: left;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.navi>li{
+    float: left;
+    width: 250px;
+}
+
+.navi>li>a{
+    width: 250px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+
+.navi>li>a:hover{
+    background-color: #eee;
+    color: #000;
+}
+
+.submenu{
+    float: left;
+    width: 250px;
+    height: 100%;
+    left: 250px;
+    top: 0px;
+    position: absolute;
+    background-color: #ccc;
+    display: none;
+    z-index: 1;
+}
+
+.submenu>li>a{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.submenu>li>a:hover{
+    background-color: #999;
+    color: #ffff00;
+}
+
+.imgslide{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slidelist{
+    float: right;
+    width: 750px;
+    height: 350px;
+}
+
+.slidelist a{
+    width: 750px;
+    height: 350px;
+}
+
+
+.slidelist img{
+    object-fit: cover;
+}
+
+.slidelist span{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.contents{
+    width: 750px;
+    height: 200px;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+.notice{
+    width: 250px;
+    margin: 0;
+}
+
+.notice h2{
+    margin-bottom: 20px;
+}
+
+.tabmenu a{
+    font-size: 13px;
+}
+
+.tabmenu li{
+   height: 30px;
+   line-height: 30px;
+}
+
+.tabmenu span{
+    float: right;
+}
+
+.gallery{
+    width: 250px;
+    float: left;
+    margin: 0;
+}
+
+.gallery h2{
+    margin-bottom: 20px;
+}
+
+.gallery ul{
+    display:flex;
+}
+
+.shortcut{
+    margin: 0;
+    width: 250px;
+    position: relative;
+}
+
+.shortcut img{
+    width: 100%;
+    height: 100%;
+}
+
+.sctext{
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    width: 750px;
+    height: 100px;
+    float: right;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btlogo{
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+}
+
+.btlogo img{
+    width: 150px;
+    height: 30px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 14px; 
+    margin-top: 30px;   
+}
+
+.familysite{
+    float: right;
+    margin-top: 30px;
+}

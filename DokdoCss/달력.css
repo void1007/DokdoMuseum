@@ -1,0 +1,330 @@
+nav {
+  height: 75.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.bg-1{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-1 img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 650px;
+  border-radius: 0 0 240px;
+}
+
+.hello{
+  top: 40%;
+width: 100%;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.hello h2{
+  font-weight: bold;
+ font-size: 58px;
+ margin: 0;
+}
+
+.hello p{
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.menu{
+  width: 1400px;
+  height: 100px;
+  background-color: #07866d;
+  margin: 0px 251.5px;
+  position: relative;
+  z-index: 1;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 32px 0px 32px 0;
+}
+
+.menu-in{
+  width: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a{
+  padding: 3px 35px 0px;
+}
+
+.menu-active{
+  display: block;
+  padding: 3px 35px 0;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-active::before{
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.wrapper{
+  padding: 180px 0 160px;
+  margin: 0 240px;
+  text-align: center;
+}
+
+.month{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.month div{
+  margin-right: auto;
+  display: flex;
+  border: 1px solid #f4f4f4;
+}
+
+.month p{
+  margin: 0;
+height: 48px;
+line-height: 48px;
+padding: 0 20px 0 48px;
+background: url(/독도전시관/calendar.png) no-repeat 20px 50% ;
+background-size: 20px;
+border-right: 1px solid #f4f4f4;
+border-left: 1px solid #f4f4f4;
+font-size: 20px;
+}
+
+.btn-next{
+  opacity: 0.5;
+  position: relative;
+  height: 48px;
+  line-height: 48px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-size: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-next:hover{
+  opacity: 1;
+}
+
+.btn-next::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 17px;
+  background: url(/독도전시관/next2.png) no-repeat 50% 0;
+  background-size: 100%;
+  transform: translate(-50%,-50%);
+}
+
+.search-btn{
+  padding: 0 22px;
+  font-size: 15px;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border: 3px solid #09847f;
+  color: #09847f;
+  font-weight: 400;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 35px;
+  width: fit-content;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.search-btn::before{
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #09847f;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.search-btn img{
+  width: 12px;
+  margin-left: 18px;
+  fill: #fff;
+}
+
+.today-btn{
+  font-weight: 400;
+  background: #505c78;
+  border: 1px solid #505c78;
+  border-radius: 35px;
+  position: inherit;
+  padding: 0 20px;
+  margin-left: 5px;
+  display: inline-block;
+  top: 0px;
+  right: 0px;
+  min-width: 100px;
+  height: 50px;
+  line-height: 48px;
+  box-sizing: border-box;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.calender{
+  width: 100%;
+  display: flex;
+}
+
+th{
+  background: #ebedf1;
+  border: 1px solid #ebedf1;
+  border-bottom: 1px solid #34475b;
+  padding: 10px;
+  border-top: 3px solid #000;
+}
+
+table{
+  width: 40%;
+  table-layout: fixed;
+  border-spacing:0 ;
+  border-collapse:collapse ;
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td{
+  height: 70px;
+  border: 1px solid #e0e6e9;
+  line-height: 0em;
+  text-align: center;
+}
+
+.sunday{
+  font-weight: bold;
+  color: #c10000;
+}
+
+em{
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+}
+
+td a{
+  display: block;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 28px 10px 5px;
+  transition: all 0.4s ease-out 0s;
+  opacity: 0.2;
+}
+
+.choice{
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #e0e6e9;
+  padding: 30px;
+}
+
+.choice p{
+  text-align: left;
+  padding: 0 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mob_info{
+  display: none;
+}
+
+caption{
+  overflow: hidden;
+  line-height: 0;
+  text-indent: -2000em;
+  display: table-caption;
+  text-align: center;
+}
+
+colgroup{
+  display: table-column-group;
+}
+
+thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.tac{
+  text-align: center !important;
+}
+
+col{
+  display: table-column;
+}
+
+.choice tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.choice tr:last-child th{
+  border-bottom: 1px solid #868686;
+  font-size: 15px;
+}
+
+thead th{
+  background: #ebedf1;
+  color: #34475b;
+}

@@ -1,0 +1,224 @@
+nav {
+  height: 75.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.section{
+  background-image: url(전시안내2.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  height: 100vh;
+}
+
+.wrap-1{
+ display: flex;
+  margin: 0 251.15px;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+.txt-1{
+  margin: 480px 155px 0 0;
+  display: block;
+  word-break: keep-all;
+  margin-bottom: 70px;
+}
+
+.txt-1 b{
+  line-height: 1;
+  display: block;
+  font-size: 36px;
+  padding: 0 0 28px;
+}
+
+.txt-1 p{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.section2{
+  background-image: url(전시안내1.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  height: 100vh;
+}
+
+.txt-2{
+  margin: 400px 0 0;
+}
+
+.txt-2 b{
+  font-size: 36px;
+  display: block;
+  line-height: 1;
+  padding-bottom: 28px;
+}
+
+.txt-2 p{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  display: block;
+}
+
+.first-p{
+  padding-top: 18px;
+}
+
+.section3{
+  background-image: url(전시안내3.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  height: 100vh;
+}
+
+.txt-3{
+  margin: 490px 155px 0 0;
+  padding: 0;
+  display: block;
+}
+
+.txt-3 b{
+  font-size: 36px;
+  display: block;
+  line-height: 1;
+  padding-bottom: 28px;
+}
+
+.txt-3 p{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  display: block;
+}
+
+.section4{
+  background-image: url(전시안내4.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  height: 100vh;
+}
+
+.txt-4{
+  margin: 490px 155px 0 0;
+  padding: 0;
+  display: block;
+}
+
+.txt-4 b{
+  font-size: 36px;
+  display: block;
+  line-height: 1;
+  padding-bottom: 28px;
+}
+
+.txt-4 p{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  display: block;
+}
+
+.bottom-pic{
+  display: flex;
+  border-radius: 240px 0 0 0;
+  width: 100%;
+  height: 680px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+}
+
+.bot-img{
+  border-radius: 240px 0 0 0;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.bot-main{
+  display: block;
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
+
+.bot-main img{
+ position: relative;
+ right: -45%;
+}
+
+.bot-p{
+  display: block;
+  margin: 0;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.bottom-content{
+  background-color:#020308;
+padding: 40px 251.5px 60px;
+}
+
+.content-ul1{
+  color: white;
+  display: flex;
+  margin: 0;
+  gap: 32px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  padding: 0;
+}
+
+.content-ul1 a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.content-ul2{
+  font-size: 13px;
+  list-style-type: none;
+  display: flex;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.content-ul2 :nth-child(1){
+  margin-right: 19px;
+}
+
+.bottom-content p{
+  font-size: 15px;
+  padding-top: 15px;
+  color: #fff;
+}

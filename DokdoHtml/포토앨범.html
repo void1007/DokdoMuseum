@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포토앨범</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="포토앨범.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="row border-bottom justify-content-around align-items-center">
+      <div class="col-1">
+        <a class="navbar-brand" href="독도.html"
+          ><img src="독도내브바.png"
+        /></a>
+      </div>
+
+      <div class="col-6" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 flex-row justify-content-between">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              href="#"
+              >전시관 소개</a
+            >
+            <ul class="dropdown-menu z-1 position-absolute">
+              <li><a class="dropdown-item" href="인사말.html">인사말</a></li>
+              <li>
+                <a class="dropdown-item" href="전시관연혁.html">전시관 연혁</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="오시는 길.html">오시는 길</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >관람 정보</a
+            >
+            <ul class="dropdown-menu z-1 position-absolute">
+              <li>
+                <a class="dropdown-item" href="관람정보.html">관람안내</a>
+              </li>
+              <li><a class="dropdown-item" href="#">단체예약</a></li>
+              <li><a class="dropdown-item" href="#">예약확인 취소</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"> 전시 안내 </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >독도 자료실</a
+            >
+            <ul class="dropdown-menu z-1 position-absolute">
+              <li><a class="dropdown-item" href="#">독도현황</a></li>
+              <li><a class="dropdown-item" href="#">독도사진</a></li>
+              <li><a class="dropdown-item" href="#">교육자료실</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >열린 광장</a
+            >
+            <ul class="dropdown-menu z-1 position-absolute">
+              <li><a class="dropdown-item" href="#">공지사항</a></li>
+              <li><a class="dropdown-item" href="#">포토앨범</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-1 d-flex justify-content-around" role="search">
+        <a class="nav-link" href="#">로그인</a>
+        <a class="nav-link" href="#">회원가입</a>
+      </div>
+    </nav>
+
+    <div class="bg-1">
+      <div class="hello">
+        <h2>포토앨범</h2>
+        <p>대한민국 독도,세종에서 만나다.</p>
+      </div>
+      <img src="공지사항.jpg" />
+    </div>
+
+    <div class="menu">
+      <div class="menu-in">
+        <ul>
+          <li>
+            <a href="공지사항.html">공지사항</a>
+          </li>
+          <li>
+            <a href="#">포토앨범</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <form>
+          <div class="checked">
+            <select class="choice">
+              <option>전체</option>
+              <option>제목</option>
+            </select>
+          </div>
+          <input class="typing" type="text" placeholder="검색어를 입력하세요" />
+          <input class="search" type="button" value="검색" />
+        </form>
+
+        <ul class="photo-list">
+          <li class="photo-item">
+            <a href="#">
+              <span
+                style="
+                  background: url(포토앨범1.png) no-repeat
+                    50% 50%;
+                "
+                class="image"
+              >
+                <i></i>
+              </span>
+              <em>독도체험교실_새롬중학교</em>
+              <span class="write">
+                <em>2023-11-10</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span
+              style="background: url(포토앨범2.png) no-repeat 50% 50%;"
+              class="image">
+                <i></i>
+              </span>
+              <em>독도체험교실_다정중학교</em>
+              <span class="write">
+                <em>2023-11-10</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범3.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>독도체험교실_참샘초등학교 6학년</em>
+              <span class="write">
+                <em>2023-11-10</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범4.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>독도체험교실_가득초등학교</em>
+              <span class="write">
+                <em>2023-11-10</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범5.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>독도체험교실_한결초등학교 5학년</em>
+              <span class="write">
+                <em>2023-11-10</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범6.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>2023년 새롬고와 함께하는 독도특별전_송담만리전...</em>
+              <span class="write">
+                <em>2023-10-27</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범7.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>2023년 새롬고와 함께하는 독도특별전_세종시교육청</em>
+              <span class="write">
+                <em>2023-10-27</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범8.png) no-repeat 50% 50%;" class="image">
+                <i></i>
+              </span>
+              <em>독도체험교실_가득초등학교</em>
+              <span class="write">
+                <em>2023-10-27</em>
+              </span>
+            </a>
+          </li>
+
+          <li class="photo-item">
+            <a href="#">
+              <span style="background: url(포토앨범9.png) no-repeat 50% 50%;" class="image">
+                <div></div>
+              </span>
+              <em>독도체험교실_새롬초등학교 1학년</em>
+              <span class="write">
+                <em>2023-10-27</em>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="num-btn">
+      <div class="back">
+          <a href="#"></a>
+        </div>
+    
+        <ol>
+          <a>1</a>
+          <a>2</a>
+          <a>3</a>
+          <a>4</a>
+          <a>5</a>
+        </ol>
+    
+        <div class="next">
+          <a href="#"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bot-main">
+    <img class="bot-img1" src="독도 하단 이미지.png" />
+    <p class="bot-p">" 경상북도 울릉읍 독도리 1-96"</p>
+  </div>
+
+  <div class="bottom-pic">
+    <img class="bot-img" src="독도1.jpg" />
+  </div>
+
+  <div class="bottom-content">
+    <ul class="content-ul1">
+      <a href="이용약관.html">이용약관</a>
+      <li><a href="개인정보취급방침.html">개인정보취급방침</a></li>       
+      <li><a>이메일주소무단수집거부</a></li>
+    </ul>
+    
+    <ul class="content-ul2">
+      <li>주소. (30126) 세종특별자치시 새롬서로 68 새롬고등학교 1층 독도전시관</li>
+      <li>문의전화. 044-999-6393</li>
+    </ul>
+    <p>© 2022 Dokdo Exhibitonon All rights reserved .</p>
+  </div>
+  </body>
+</html>

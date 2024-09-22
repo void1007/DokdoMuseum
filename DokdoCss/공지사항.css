@@ -1,0 +1,370 @@
+nav {
+  height: 75.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.bg-1{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-1 img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 650px;
+  border-radius: 0 0 240px;
+}
+
+.hello{
+  top: 40%;
+width: 100%;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.hello h2{
+  font-weight: bold;
+ font-size: 58px;
+ margin: 0;
+}
+
+.hello p{
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.menu {
+  width: 1400px;
+  height: 100px;
+  background-color: #07866d;
+  margin: 0px 251.5px;
+  position: relative;
+  z-index: 1;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 32px 0px 32px 0;
+}
+
+.menu ul{
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 120px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin: ;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 35px 0px;
+}
+
+.wrapper {
+  padding: 180px 0 160px;
+  margin: 0;
+}
+
+.container{
+  padding: 0;
+}
+
+.container form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.choice{
+  display: block;
+  width: 130px;
+  height: 54px;
+  margin: 0;
+  padding: 0 18px;
+  border: 1px solid #ddd;
+}
+
+.checked{
+  margin-right: 13px;
+}
+
+.typing{
+  height: 52px;
+  padding: 9px 12px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.3s ease 0s;
+  outline: none;
+  width: 33%;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.search{
+  height: 50px;
+  background: #41464e;
+  border: none;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  min-width: 100px;
+  line-height: 43px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 2px 0px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.4s ease-out 0.1s;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search:hover{
+  opacity: 0.8;
+  color: #fff !important;
+}
+
+.scroll{
+  width: 100%;
+  list-style: none;
+  border-top: 2px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-item{
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #eaecf1;
+}
+
+.scroll-item:hover{
+  color: #222;
+}
+
+.scroll-date{
+  width: 65px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  transform: translateY(-50%);
+  transition: all 0.4s ease-out 0s;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  color: #99999c;
+ 
+}
+
+.scroll-date i{
+  display: block;
+  font-size: 40px;
+  color: #dadada;
+  transition: all 0.4s ease-out 0s;
+  font-weight: 700;
+  margin-bottom: 3px;
+  font-style: normal;
+  line-height: 1em;
+}
+
+.none{
+  content: '';
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  width: 1px;
+  height: 30px;
+  margin-top: -15px;
+  background-color: #e5e5e5;
+}
+
+.scroll-item a{
+  font-size: 18px;
+  letter-spacing: -0.01px;
+  font-weight: 600;
+  transition: all 0.4s ease-out 0s;
+  display: flex;
+  align-items: center;
+  padding: 39px 15px 39px 125px;
+  text-decoration: none;
+  color: #222;
+  width: 100%;
+}
+
+.click i{
+display: inline-block;
+margin-right: 10px;
+margin-top: -5px;
+background-color: #222;
+text-align: center;
+font-style: normal;
+vertical-align: middle;
+overflow: hidden;
+color: #fff;
+font-size: 13px;
+padding: 4px 12px;
+border-radius: 24px;
+}
+
+.num-btn{
+  display: flex;
+  margin: 60px 0 0;
+  justify-content: center;
+align-items: center;
+}
+
+.back{
+  cursor: pointer;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin: 0 9px;
+  border: 1px solid #d9d9d9;
+  font-weight: bold;
+  color: #444;
+  background: url(/독도전시관/back.png) no-repeat 50% 13px / 9.1px;
+  opacity: 0.8;
+}
+
+.back a{
+  margin: 0 3px;
+
+}
+
+.next{
+  cursor: pointer;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin: 0 9px;
+  border: 1px solid #d9d9d9;
+  font-weight: bold;
+  color: #444;
+  background: url(/독도전시관/next.png) no-repeat 50% 13px / 9.1px;
+  opacity: 0.8;   
+}
+
+.num-btn ol {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.num-btn ol a{
+  font-size: 16px;
+  color: #939393;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.num-btn ol a:nth-child(1){
+  color: #222;
+  font-weight: bold;
+}
+
+.bottom-pic{
+  display: flex;
+  border-radius: 240px 0 0 0;
+  width: 100%;
+  height: 680px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+}
+
+.bot-img{
+  border-radius: 240px 0 0 0;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.bot-main{
+  display: block;
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
+
+.bot-main img{
+ position: relative;
+ right: -45%;
+}
+
+.bot-p{
+  display: block;
+  margin: 0;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.bottom-content{
+  background-color:#020308;
+padding: 40px 251.5px 60px;
+}
+
+.content-ul1{
+  color: white;
+  display: flex;
+  margin: 0;
+  gap: 32px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  padding: 0;
+}
+
+.content-ul1 a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.content-ul2{
+  font-size: 13px;
+  list-style-type: none;
+  display: flex;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.content-ul2 :nth-child(1){
+  margin-right: 19px;
+}
+
+.bottom-content p{
+  font-size: 15px;
+  padding-top: 15px;
+  color: #fff;
+}

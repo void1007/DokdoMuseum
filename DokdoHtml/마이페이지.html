@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마이페이지</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="마이페이지.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="row border-bottom justify-content-around align-items-center">
+    <div class="col-1">
+      <a class="navbar-brand" href="#"
+        ><img src="독도내브바.png"
+      /></a>
+    </div>
+
+    <div class="col-6" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 flex-row justify-content-between">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            aria-expanded="false"
+            data-bs-toggle="dropdown"
+            href="#"
+            >전시관 소개</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="인사말.html">인사말</a></li>
+            <li><a class="dropdown-item" href="전시관연혁.html">전시관 연혁</a></li>
+            <li><a class="dropdown-item" href="오시는 길.html">오시는 길</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >관람 정보</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="관람정보.html">관람안내</a></li>
+            <li><a class="dropdown-item" href="#">단체예약</a></li>
+            <li><a class="dropdown-item" href="#">예약확인 취소</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"> 전시 안내 </a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >독도 자료실</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="#">독도현황</a></li>
+            <li><a class="dropdown-item" href="#">독도사진</a></li>
+            <li><a class="dropdown-item" href="#">교육자료실</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >열린 광장</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="#">공지사항</a></li>
+            <li><a class="dropdown-item" href="#">포토앨범</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-1 d-flex justify-content-around" role="search">
+      <a class="nav-link" href="#">로그인</a>
+      <a class="nav-link" href="#">회원가입</a>
+    </div>
+  </nav>
+
+  <div class="bg-1">
+    <div class="hello">
+      <h2>마이페이지</h2>
+      <p>대한민국 독도,세종에서 만나다.</p>
+    </div>
+    <img src="독도10-2.jpg" />
+  </div>
+
+  <div class="wrapper">
+    <div class="header">
+      <strong>본인인증안내</strong>
+      <p>원활한 홈페이지서비스이용과 익명의 사용자로 인한 피해를 방지 하고자 본인확인서비스를 시행하고 있습니다.</p>
+      <p>본인인증 방법 선택 후 팝업창이 나타나지 않으면 브라우저의 팝업차단을 해제해 주시기 바랍니다.</p>
+    </div>
+
+    <div class="content-1">
+      <div class="item-1">
+        <img class="icon-1" src="icon1.png">
+        <h2>휴대전화 본인확인</h2>
+        <p>개인정보보호법에 의거 휴대전화를 통하여 본인 확인</p>
+        <a href="#">휴대전화 인증하기<img class="arrow" src="화살표2.png"></a>
+        <ul>
+          <li>생년월일, 성명, 내/외국인, 휴대폰번호, 통신사를 입력하여 본인확인을<br> 받습니다.</li>
+          <li>본인 명의의 휴대전화가 아닐경우 본인확인이 이루어지지 않습니다.</li>
+        </ul>
+      </div>
+
+      <div class="item-1">
+        <img class="icon-1" src="icon2.png">
+        <h2>회원로그인</h2>
+        <p>홈페이지 로그인은 아이디와 비밀번호로 로그인하실 수 있습니다.</p>
+        <div class="log-in">
+          
+            <div class="id">
+              <input type="text" name="id" placeholder="아이디를 입력해주세요">
+            </div>
+            <div class="password">
+              <input type="password" name="password" placeholder="비밀번호를 입력해주세요">
+              <p>※ 글 수정, 삭제시 필요합니다.</p>
+  
+            </div>
+            <input type="button" value="Login" class="btn_Login">
+
+        </div>
+        <div class="search">
+          <a href="#">아이디 찾기</a>
+                   
+          <a class="dot::before" href="#">비밀번호 찾기</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bot-main">
+    <img class="bot-img1" src="독도 하단 이미지.png" />
+    <p class="bot-p">" 경상북도 울릉읍 독도리 1-96"</p>
+  </div>
+
+  <div class="bottom-pic">
+    <img class="bot-img" src="독도1.jpg" />
+  </div>
+
+  <div class="bottom-content">
+    <ul class="content-ul1">
+      <a href="이용약관.html">이용약관</a>
+      <li><a href="개인정보취급방침.html">개인정보취급방침</a></li>       
+      <li><a href="이메일무단수집거부.html">이메일주소무단수집거부</a></li>
+    </ul>
+    
+    <ul class="content-ul2">
+      <li>주소. (30126) 세종특별자치시 새롬서로 68 새롬고등학교 1층 독도전시관</li>
+      <li>문의전화. 044-999-6393</li>
+    </ul>
+    <p>© 2022 Dokdo Exhibitonon All rights reserved .</p>
+  </div>
+
+</body>
+</html>

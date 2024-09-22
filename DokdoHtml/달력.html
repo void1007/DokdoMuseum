@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>단체예약 달력</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="달력.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="row border-bottom justify-content-around align-items-center">
+    <div class="col-1">
+      <a class="navbar-brand" href="#"
+        ><img src="../독도전시관/독도내브바.png"
+      /></a>
+    </div>
+
+    <div class="col-6" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 flex-row justify-content-between">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            aria-expanded="false"
+            data-bs-toggle="dropdown"
+            href="#"
+            >전시관 소개</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="인사말.html">인사말</a></li>
+            <li><a class="dropdown-item" href="전시관연혁.html">전시관 연혁</a></li>
+            <li><a class="dropdown-item" href="오시는 길.html">오시는 길</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >관람 정보</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="관람정보.html">관람안내</a></li>
+            <li><a class="dropdown-item" href="#">단체예약</a></li>
+            <li><a class="dropdown-item" href="#">예약확인 취소</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"> 전시 안내 </a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >독도 자료실</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="#">독도현황</a></li>
+            <li><a class="dropdown-item" href="#">독도사진</a></li>
+            <li><a class="dropdown-item" href="#">교육자료실</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >열린 광장</a
+          >
+          <ul class="dropdown-menu z-1 position-absolute">
+            <li><a class="dropdown-item" href="#">공지사항</a></li>
+            <li><a class="dropdown-item" href="#">포토앨범</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-1 d-flex justify-content-around" role="search">
+      <a class="nav-link" href="#">로그인</a>
+      <a class="nav-link" href="#">회원가입</a>
+    </div>
+  </nav>
+
+  <div class="bg-1">
+    <div class="hello">
+      <h2>단체예약</h2>
+      <p>대한민국 독도,세종에서 만나다.</p>
+    </div>
+    <img src="/독도전시관/독도10.jpg" />
+  </div>
+
+  <div class="menu">
+    <div class="menu-in">
+      <a>관람안내</a>
+      <a class="menu-active">단체예약</a>
+      <a>예약확인 * 취소</a>
+    </div>
+  </div>
+
+  <div class="wrapper">
+
+    <div class="month">
+      <div>
+        <p>2024.01</p>
+        <a class="btn-next">"다음달"</a>
+      </div>
+      <a class="search-btn" href="#">나의신청현황조회<img src="/독도전시관/화살표2.png"></a>
+      <a class="today-btn" href="#">Today</a>
+    </div>
+
+    <div class="calender">
+      <table>
+        <tr>
+          <th class="sunday">일</th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+          <th>토</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a><em>1</em></a></td>
+          <td><a><em>2</em></a></td>
+          <td><a><em>3</em></a></td>
+          <td><a><em>4</em></a></td>
+          <td><a><em>5</em></a></td>
+          <td><a><em>6</em></a></td>
+        </tr>
+        <tr>
+          <td><a><em>7</em></a></td>
+          <td><a><em>8</em></a></td>
+          <td><a><em>9</em></a></td>
+          <td><a><em>10</em></a></td>
+          <td><a><em>11</em></a></td>
+          <td><a><em>12</em></a></td>
+          <td><a><em>13</em></a></td>
+        </tr>
+        <tr>
+          <td><a><em>14</em></a></td>
+          <td><a><em>15</em></a></td>
+          <td><a><em>16</em></a></td>
+          <td><a><em>17</em></a></td>
+          <td><a><em>18</em></a></td>
+          <td><a><em>19</em></a></td>
+          <td><a><em>20</em></a></td>
+        </tr>
+        <tr>
+          <td><a><em>21</em></a></td>
+          <td><a><em>22</em></a></td>
+          <td><a><em>23</em></a></td>
+          <td><a><em>24</em></a></td>
+          <td><a><em>25</em></a></td>
+          <td><a><em>26</em></a></td>
+          <td><a><em>27</em></a></td>
+        </tr>
+        <tr>
+          <td><a><em>28</em></a></td>
+          <td><a><em>29</em></a></td>
+          <td><a><em>30</em></a></td>
+          <td><a><em>31</em></a></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <div class="choice">
+        <p>달력의 날짜를 선택해주세요.</p>
+        <div class="slide scroll">
+          <p class="mob_info">좌우로 스크롤 하시면 확인이 가능합니다.</p>
+          <div class="scrollTable">
+            <table class="table tac scroll">
+              <caption>예약현황 표</caption>
+              <colgroup>
+                <col>
+                <col>
+                <col>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col">시간</th>
+                  <th scope="col">예약현황/정원</th>
+                  <th scope="col">예약하기</th>
+                </tr>
+              </thead>
+              <tbody> </tbody>
+            </table>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>
+</html>

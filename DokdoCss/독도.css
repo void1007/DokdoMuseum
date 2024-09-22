@@ -5,6 +5,8 @@ nav {
   right: 0;
   background-color: transparent;
   z-index: 2;
+  background-color: #fff;
+  height: 75.5px;
 }
 
 .navbar {

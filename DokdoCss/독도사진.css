@@ -6,6 +6,7 @@ nav {
   right: 0;
   background-color: transparent;
   z-index: 2;
+  background-color: #fff;
 }
 
 .bg-1 {
@@ -207,7 +208,7 @@ align-items: center;
   border: 1px solid #d9d9d9;
   font-weight: bold;
   color: #444;
-  background: url(/독도전시관/back.png) no-repeat 50% 13px / 9.1px;
+  background: url(../DokdoImage/Icon/back1.png) no-repeat 50% 13px / 9.1px;
   opacity: 0.8;
 }
 
@@ -227,7 +228,7 @@ align-items: center;
   border: 1px solid #d9d9d9;
   font-weight: bold;
   color: #444;
-  background: url(/독도전시관/next.png) no-repeat 50% 13px / 9.1px;
+  background: url(../DokdoImage/Icon/next2.png) no-repeat 50% 13px / 9.1px;
   opacity: 0.8;   
 }
 

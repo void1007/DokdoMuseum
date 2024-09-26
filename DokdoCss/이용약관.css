@@ -1,5 +1,12 @@
-nav{
-  margin: 0px 251.5px;
+nav {
+  height: 75.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 2;
+  background-color: #fff;
 }
 
 nav div{

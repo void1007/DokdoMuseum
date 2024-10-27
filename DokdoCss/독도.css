@@ -39,6 +39,22 @@ nav {
   border-radius: 32px;
 }
 
+
+.carousel-inner{
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 1268.16px;
+}
+
+.carousel-item > img{
+  width: 100%;
+  height: 100%;
+}
+
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -475,4 +491,26 @@ padding: 40px 251.5px 60px;
   font-size: 15px;
   padding-top: 15px;
   color: #fff;
+}
+
+/*캐러셀부분*/
+
+.area_notice{
+  padding: 0 0 143rem;
+  width: calc(100% - 260rem);
+  float: right;
+}
+
+.area_notice .notice_inn{
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 400rem; 
+}
+
+.area_notice .notice_inn .left_sect{
+  width: 35%;
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 30rem;
 }
